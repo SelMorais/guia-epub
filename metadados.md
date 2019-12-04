@@ -3,17 +3,19 @@
 **dc:identifier:** Refere-se ao identificador associado da publicação. Pode ser um UUID, DOI ou ISBN.   
 **Atributos:** id (opcional)
 
-dc:title: Refere-se ao nome da publicação
-Atributos: dir, id, xml:lang (opcionais)
+**dc:title:**
+**Atributos:** dir, id, xml:lang (opcionais)
 
 ```html
 	<dc:title>Revista .br</dc:title>
 ```
-dc:language: Refere-se ao idioma da publicação
-Atributos: id (opcional)
+**dc:language:** Refere-se ao idioma da publicação
+**Atributos:** id (opcional)
+```html
 <dc:language>pt-br</dc:language>
-
-dcterms:modified:  Atributo para definir a data da última modificação do documento
+```
+**dcterms:modified:**  Atributo para definir a data da última modificação do documento
+```html
 <meta property="dcterms:modified">2011-01-21T21:00:00Z</meta>
 
 Exemplo:
